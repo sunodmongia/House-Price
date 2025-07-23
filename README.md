@@ -99,8 +99,8 @@ The following regression models were trained and evaluated using **cross-validat
 ## 🛠️ How to Run
 
 1. **Clone the repository**:
-   ```bash```
-   ```git clone https://github.com/sunodmongia/california-housing-price-prediction.git```
-   ```cd california-housing-price-prediction```
+   ```bash
+     git clone https://github.com/sunodmongia/california-housing-price-prediction.git
+     cd california-housing-price-prediction
 
   
