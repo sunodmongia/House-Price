@@ -28,7 +28,7 @@ The following Python libraries were used to build, train, and evaluate the model
 | `jupyter`          | Interactive development and visualization |
 
 📌 Install all dependencies using:
-```bash
+```bash```
 pip install -r requirements.txt
 
 ---
