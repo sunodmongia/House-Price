@@ -13,6 +13,26 @@ This project focuses on predicting housing prices in **California, USA**, using 
 
 ---
 
+## 📚 Libraries Used
+
+The following Python libraries were used to build, train, and evaluate the models:
+
+| Library            | Purpose                                 |
+|--------------------|-----------------------------------------|
+| `numpy`            | Numerical operations and array handling |
+| `pandas`           | Data loading, exploration, and preprocessing |
+| `matplotlib`       | Data visualization                      |
+| `seaborn`          | Advanced statistical data visualization |
+| `scikit-learn`     | Machine learning models, preprocessing, and evaluation |
+| `joblib` *(optional)* | Saving/loading trained models           |
+| `jupyter`          | Interactive development and visualization |
+
+📌 Install all dependencies using:
+```bash
+pip install -r requirements.txt
+
+---
+
 ## 💾 Dataset Description
 
 | Feature Name           | Description                                                                 |
