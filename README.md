@@ -86,11 +86,11 @@ To prepare the data for modeling, the following steps were applied:
 
 The following regression models were trained and evaluated using **cross-validation**:
 
-| Model               | Status     | Reason for Selection/Exclusion                                      |
-|--------------------|------------|---------------------------------------------------------------------|
-| **Linear Regression** | ❌ Rejected | Underfitting — failed to capture non-linear relationships in data   |
-| **Decision Tree**     | ❌ Rejected | Overfitting — high variance, poor performance on validation sets    |
-| **Random Forest**     | ✅ Selected | Best performance — low error, good generalization across folds      |
+| Model              | Mean RMSE | Standard Deviation | Status     |
+|-------------------|-----------|--------------------|------------|
+| Linear Regression  | 69,858    | 4,182              | ❌ Underfit |
+| Decision Tree      | 66,868    | 2,061              | ❌ Overfit  |
+| Random Forest      | **47,019**| 1,033              | ✅ Selected |
 
 ✅ **Final Model**: `RandomForestRegressor` was chosen based on its superior cross-validation RMSE and ability to generalize well to unseen data.
 
@@ -99,8 +99,8 @@ The following regression models were trained and evaluated using **cross-validat
 ## 🛠️ How to Run
 
 1. **Clone the repository**:
-   ```bash
-   git clone https://github.com/your-username/california-housing-price-prediction.git
-   cd california-housing-price-prediction
+   ```bash```
+   ```git clone https://github.com/sunodmongia/california-housing-price-prediction.git```
+   ```cd california-housing-price-prediction```
 
   
